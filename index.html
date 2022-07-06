@@ -104,7 +104,7 @@ var createScene = function() {
 
     //create ground
     //var ground = BABYLON.Mesh.CreateGroundFromHeightMap("ground", "textures/worldHeightMap.jpg", 200, 200, 250, 0, 10, scene, false);
-    var ground = BABYLON.Mesh.CreateGroundFromHeightMap("ground", "https://raw.githubusercontent.com/nicklvov/images/main/heighmap1.jpg", 1000, 1000, 250, 0, 100, scene, false);
+    var ground = BABYLON.Mesh.CreateGroundFromHeightMap("ground", "https://raw.githubusercontent.com/nicklvov/images/main/heightMap.png", 1000, 1000, 250, 0, 100, scene, false);
     var groundMaterial = new BABYLON.StandardMaterial("ground", scene);
     groundMaterial.diffuseTexture = new BABYLON.Texture("https://raw.githubusercontent.com/nicklvov/images/main/snow1.jpeg", scene);
     //groundMaterial.diffuseTexture = new BABYLON.Texture("textures/ground.jpg", scene);
