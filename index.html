@@ -83,12 +83,12 @@ var createScene = function() {
 	lightSphere2.material.emissiveColor = new BABYLON.Color3(0.8, 0.86, 0.89, 0.55);
 
     var bigPlanet = BABYLON.Mesh.CreateIcoSphere("sphere", {radius:200, flat:true, subdivisions: 16}, scene);
-	bigPlanet.position = new BABYLON.Vector3(600, 200, 600)
+	bigPlanet.position = new BABYLON.Vector3(1000, 600, 1000)
 	bigPlanet.material = new BABYLON.StandardMaterial("light", scene);
 	bigPlanet.material.emissiveColor = new BABYLON.Color3(0.93, 0.91, 0.11, 0.55);  
       
     //var skybox = BABYLON.Mesh.CreateBox('skybox', 10000, scene);
-    var skybox = BABYLON.Mesh.CreateIcoSphere("sphere", {radius:300, flat:true, subdivisions: 16}, scene);
+    var skybox = BABYLON.Mesh.CreateIcoSphere("sphere", {radius:1000, flat:true, subdivisions: 16}, scene);
 
     var skyboxMaterial = new BABYLON.StandardMaterial('skyboxMat', scene);
   
